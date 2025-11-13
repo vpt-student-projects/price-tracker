@@ -19,6 +19,7 @@ PriceTracker - Система для мониторинга цен
 - Desktop приложение на WPF
 
 Технологии
+
 Backend: ASP.NET Core, Entity Framework, SQLite
 
 Frontend: WPF, OxyPlot (графики)
