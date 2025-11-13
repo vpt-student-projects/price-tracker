@@ -27,22 +27,22 @@ Frontend: WPF, OxyPlot (графики)
 
 Поддерживаемые магазины
 
-DNS-Shop
+- DNS-Shop
 
-Citilink
+- Citilink
 
-OnlineTrade
+- OnlineTrade
 
-Books.toscrape.com 
+- Books.toscrape.com 
 
 API Endpoints
 
-GET /api/products - список товаров
+- GET /api/products - список товаров
 
-POST /api/products - добавить товар
+- POST /api/products - добавить товар
 
-GET /api/stats/overview - статистика
+- GET /api/stats/overview - статистика
 
-POST /api/products/{id}/refresh - обновить цену
+- POST /api/products/{id}/refresh - обновить цену
 
 Разработано для курсовой работы © 2025
