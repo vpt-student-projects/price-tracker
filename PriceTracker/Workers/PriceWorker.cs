@@ -46,18 +46,21 @@ namespace PriceTracker.Workers
                             });
 
                             successCount++;
-                            _logger.LogInformation($"✅ Обновлен {product.Name}: {price.Value}");
+                            _logger.LogInformation($"✅ Обновлен {product.Name}: {price.Value} ₽");
                         }
                         else
                         {
                             failCount++;
                             _logger.LogWarning($"❌ Не удалось получить цену для: {product.Name}");
+
+                            _logger.LogWarning($"🔗 Проблемный URL: {product.Url}");
                         }
                     }
                     catch (Exception ex)
                     {
                         failCount++;
-                        _logger.LogError(ex, $"💥 Ошибка парсинга {product.Url}");
+                        _logger.LogError(ex, $"💥 Ошибка парсинга {product.Name}");
+                        _logger.LogError($"🔗 URL с ошибкой: {product.Url}");
                     }
                 }
 
