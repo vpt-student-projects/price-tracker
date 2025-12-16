@@ -1,62 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\workers\\advancedpriceparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\workers\\advancedpriceparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\workers\\priceworkerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\workers\\priceworkerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\workers\\priceworkerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\workers\\priceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\workers\\priceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\workers\\priceworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\workers\\advancedpriceparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\workers\\advancedpriceparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\models\\pricehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\pricehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\pricehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\pricehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\models\\dtos\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\models\\dtos\\admindashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\middleware\\jwtmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\desktop\\pricetrackerapplication\\pricetracker\\pricetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|c:\\users\\admin\\source\\repos\\pricetracker\\pricetracker\\pricetracker.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{F7E54DB4-9BD9-4775-8E1D-718DF90361BA}|PriceTracker\\PriceTracker.csproj|solutionrelative:pricetracker\\pricetracker.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,178 +106,288 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdvancedPriceParser.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Workers\\AdvancedPriceParser.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Workers\\AdvancedPriceParser.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Workers\\AdvancedPriceParser.cs",
-              "RelativeToolTip": "PriceTracker\\Workers\\AdvancedPriceParser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T16:45:08.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PriceWorkerHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Workers\\PriceWorkerHelper.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Workers\\PriceWorkerHelper.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Workers\\PriceWorkerHelper.cs",
-              "RelativeToolTip": "PriceTracker\\Workers\\PriceWorkerHelper.cs",
-              "ViewState": "AgIAAHkBAAAAAAAAAAAwwJEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T10:46:36.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "PriceTracker\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Title": "PriceHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\PriceHistory.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\PriceHistory.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\PriceHistory.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\PriceHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:16:28.202Z"
+              "WhenOpened": "2025-12-07T18:12:00.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "PriceHistory.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Models\\PriceHistory.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Models\\PriceHistory.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Models\\PriceHistory.cs",
-              "RelativeToolTip": "PriceTracker\\Models\\PriceHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\Product.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:15:25.244Z"
+              "WhenOpened": "2025-12-07T18:12:05.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Models\\Product.cs",
-              "RelativeToolTip": "PriceTracker\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\User.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\User.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:15:01.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StatsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Controllers\\StatsController.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\StatsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Controllers\\StatsController.cs",
-              "RelativeToolTip": "PriceTracker\\Controllers\\StatsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T15:37:17.427Z",
+              "WhenOpened": "2025-12-07T18:12:09.576Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Controllers\\TestController.cs",
-              "RelativeToolTip": "PriceTracker\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T10:47:32.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Program.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Program.cs",
-              "RelativeToolTip": "PriceTracker\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:10:21.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\appsettings.json",
-              "RelativeDocumentMoniker": "PriceTracker\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\appsettings.json",
-              "RelativeToolTip": "PriceTracker\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-22T17:16:47.131Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PriceWorker.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Workers\\PriceWorker.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Workers\\PriceWorker.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Workers\\PriceWorker.cs",
-              "RelativeToolTip": "PriceTracker\\Workers\\PriceWorker.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Services\\AuthService.cs",
+              "RelativeToolTip": "PriceTracker\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:18:30.951Z",
+              "WhenOpened": "2025-12-07T18:12:14.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "PriceTracker\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJsAAAANAAAAAAAAAA==",
+              "Title": "AdvancedPriceParser.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Workers\\AdvancedPriceParser.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Workers\\AdvancedPriceParser.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Workers\\AdvancedPriceParser.cs",
+              "RelativeToolTip": "PriceTracker\\Workers\\AdvancedPriceParser.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAgwHAAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T17:18:01.222Z",
+              "WhenOpened": "2025-12-07T18:12:19.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PriceWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Workers\\PriceWorker.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Workers\\PriceWorker.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Workers\\PriceWorker.cs",
+              "RelativeToolTip": "PriceTracker\\Workers\\PriceWorker.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wDUAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:12:23.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PriceWorkerHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Workers\\PriceWorkerHelper.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Workers\\PriceWorkerHelper.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Workers\\PriceWorkerHelper.cs",
+              "RelativeToolTip": "PriceTracker\\Workers\\PriceWorkerHelper.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:12:28.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Program.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Program.cs",
+              "RelativeToolTip": "PriceTracker\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T19:09:06.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PriceTracker\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PriceTracker\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-07T18:10:52.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\DTOs\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:47.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PriceTracker\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAIwC0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:00.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "PriceTracker\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\Properties\\launchSettings.json",
-              "RelativeToolTip": "PriceTracker\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-29T09:38:02.339Z"
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\DTOs\\UserResponseDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\UserResponseDto.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\DTOs\\UserResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:56.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "PriceTracker\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\appsettings.Development.json",
-              "RelativeToolTip": "PriceTracker\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-29T09:57:50.411Z"
+              "DocumentIndex": 11,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\DTOs\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T15:17:34.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "PriceTracker.http",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\PriceTracker.http",
-              "RelativeDocumentMoniker": "PriceTracker\\PriceTracker.http",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PriceTracker\\PriceTracker\\PriceTracker.http",
-              "RelativeToolTip": "PriceTracker\\PriceTracker.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-09-29T09:57:59.049Z"
+              "Title": "AdminDashboardDto.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\AdminDashboardDto.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Models\\DTOs\\AdminDashboardDto.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Models\\DTOs\\AdminDashboardDto.cs",
+              "RelativeToolTip": "PriceTracker\\Models\\DTOs\\AdminDashboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:43.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JwtMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Middleware\\JwtMiddleware.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Middleware\\JwtMiddleware.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Middleware\\JwtMiddleware.cs",
+              "RelativeToolTip": "PriceTracker\\Middleware\\JwtMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:37.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "PriceTracker\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:33.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "PriceTracker\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:24.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\StatsController.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\StatsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\StatsController.cs",
+              "RelativeToolTip": "PriceTracker\\Controllers\\StatsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:15.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\TestController.cs",
+              "RelativeToolTip": "PriceTracker\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:19.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "PriceTracker\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAmwN4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T17:12:48.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PriceTracker\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PriceTracker\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T18:11:05.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "PriceTracker\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PriceTrackerApplication\\PriceTracker\\PriceTracker\\appsettings.json",
+              "RelativeToolTip": "PriceTracker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-07T18:12:33.91Z"
             }
           ]
         },

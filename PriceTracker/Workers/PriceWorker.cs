@@ -42,7 +42,7 @@ namespace PriceTracker.Workers
                             {
                                 ProductId = product.Id,
                                 Price = price.Value,
-                                RetrievedAt = DateTime.UtcNow
+                                RetrievedAt = DateTime.Now
                             });
 
                             successCount++;

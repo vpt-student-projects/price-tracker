@@ -138,73 +138,59 @@ namespace PriceTracker.Workers
         {
             try
             {
-                Console.WriteLine("📊 Парсим E-katalog");
+                Console.WriteLine("📊 Парсим E-katalog с помощью Selenium");
+
+                using var seleniumParser = new AdvancedPriceParser();
+                var price = await seleniumParser.ParsePrice(url);
+
+                if (price.HasValue && price > 100)
+                {
+                    Console.WriteLine($"✅ Нашли цену E-katalog через Selenium: {price}");
+                    return price;
+                }
+
+                Console.WriteLine("🔄 Selenium не нашел цену, используем резервные методы");
+                return await ParseEkatalogWithHttpClient(url);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"💥 Ошибка Selenium парсинга E-katalog: {ex.Message}");
+                return await ParseEkatalogWithHttpClient(url);
+            }
+        }
+
+        private static async Task<decimal?> ParseEkatalogWithHttpClient(string url)
+        {
+            try
+            {
+                Console.WriteLine("🔌 Используем HttpClient для E-katalog");
                 var html = await httpClient.GetStringAsync(url);
 
-                Console.WriteLine($"📄 Получили HTML длиной: {html.Length} символов");
+                var sellerPrices = ExtractSellerPrices(html);
+                if (sellerPrices.Any())
+                {
+                    var minPrice = sellerPrices.Min();
+                    Console.WriteLine($"✅ Нашли минимальную цену в списке продавцов: {minPrice}");
+                    return minPrice;
+                }
 
-                var fromPriceMatch = Regex.Match(html, @"от[^\d]*([\d\s]+)[^\d]*₽");
+                var fromPriceMatch = Regex.Match(html, @"от[^\d]*([\d\s]+)[^\d]*₽", RegexOptions.IgnoreCase);
                 if (fromPriceMatch.Success)
                 {
                     var priceText = fromPriceMatch.Groups[1].Value;
                     var price = ParsePriceText(priceText);
-                    if (price.HasValue)
+                    if (price.HasValue && price > 100)
                     {
-                        Console.WriteLine($"✅ Нашли основную цену E-katalog 'от ... ₽': {price}");
+                        Console.WriteLine($"✅ Нашли цену 'от ... ₽': {price}");
                         return price;
                     }
                 }
 
-                var sellerPriceMatch = Regex.Match(html, @"<div[^>]*class=[^>]*price[^>]*>([^<]+)");
-                if (sellerPriceMatch.Success)
+                var jsonPrices = ExtractJsonLdPrices(html);
+                if (jsonPrices.Any())
                 {
-                    var priceText = sellerPriceMatch.Groups[1].Value;
-                    var price = ParsePriceText(priceText);
-                    if (price.HasValue && price > 1000 && price < 50000)
-                    {
-                        Console.WriteLine($"✅ Нашли цену E-katalog в списке продавцов: {price}");
-                        return price;
-                    }
-                }
-
-                var classPatterns = new[]
-                {
-                    @"class=\""price[^>]*>([^<]+)",
-                    @"class=\""desc-price[^>]*>([^<]+)",
-                    @"itemprop=\""price\""[^>]*content=\""([^""]+)\"""
-                };
-
-                foreach (var pattern in classPatterns)
-                {
-                    var match = Regex.Match(html, pattern, RegexOptions.IgnoreCase);
-                    if (match.Success)
-                    {
-                        var priceText = match.Groups[1].Value;
-                        var price = ParsePriceText(priceText);
-                        if (price.HasValue && price > 1000 && price < 50000)
-                        {
-                            Console.WriteLine($"✅ Нашли цену E-katalog по классу: {price}");
-                            return price;
-                        }
-                    }
-                }
-
-                var allPriceMatches = Regex.Matches(html, @"([\d\s]+)[^\d]*₽");
-                var prices = new List<decimal>();
-
-                foreach (Match match in allPriceMatches)
-                {
-                    var price = ParsePriceText(match.Groups[1].Value);
-                    if (price.HasValue && price > 1000 && price < 50000)
-                    {
-                        prices.Add(price.Value);
-                    }
-                }
-
-                if (prices.Any())
-                {
-                    var minPrice = prices.Min();
-                    Console.WriteLine($"✅ Нашли минимальную цену E-katalog: {minPrice}");
+                    var minPrice = jsonPrices.Min();
+                    Console.WriteLine($"✅ Нашли минимальную цену в JSON-LD: {minPrice}");
                     return minPrice;
                 }
 
@@ -213,9 +199,81 @@ namespace PriceTracker.Workers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"💥 Ошибка парсинга E-katalog: {ex.Message}");
+                Console.WriteLine($"💥 Ошибка HttpClient парсинга E-katalog: {ex.Message}");
                 return null;
             }
+        }
+
+        private static List<decimal> ExtractSellerPrices(string html)
+        {
+            var prices = new List<decimal>();
+
+            var sellerPatterns = new[]
+            {
+        @"<div[^>]*class=[^>]*price[^>]*>([^<]+)</div>",
+        @"<span[^>]*class=[^>]*price[^>]*>([^<]+)</span>",
+        @"<a[^>]*class=[^>]*price[^>]*>([^<]+)</a>",
+        @"<div[^>]*data-price=[^>]*>([^<]+)</div>"
+    };
+
+            foreach (var pattern in sellerPatterns)
+            {
+                var matches = Regex.Matches(html, pattern, RegexOptions.IgnoreCase);
+                foreach (Match match in matches)
+                {
+                    if (match.Groups.Count > 1)
+                    {
+                        var priceText = match.Groups[1].Value;
+                        var price = ParsePriceText(priceText);
+
+                        if (price.HasValue && price > 100 && price < 1000000)
+                        {
+                            Console.WriteLine($"🔍 Нашли цену продавца: {price}");
+                            prices.Add(price.Value);
+                        }
+                    }
+                }
+            }
+
+            return prices;
+        }
+
+        private static List<decimal> ExtractJsonLdPrices(string html)
+        {
+            var prices = new List<decimal>();
+
+            var jsonLdMatches = Regex.Matches(html, @"<script type=\""application/ld\+json\"">(.*?)</script>", RegexOptions.Singleline);
+            foreach (Match match in jsonLdMatches)
+            {
+                var json = match.Groups[1].Value;
+
+                var pricePatterns = new[]
+                {
+            @"""price""\s*:\s*""?([\d\s,\.]+)""?",
+            @"""lowPrice""\s*:\s*""?([\d\s,\.]+)""?",
+            @"""highPrice""\s*:\s*""?([\d\s,\.]+)""?",
+            @"""priceCurrency""\s*:\s*""RUB""[^}]*""price""\s*:\s*""?([\d\s,\.]+)""?"
+        };
+
+                foreach (var pattern in pricePatterns)
+                {
+                    var priceMatches = Regex.Matches(json, pattern, RegexOptions.IgnoreCase);
+                    foreach (Match priceMatch in priceMatches)
+                    {
+                        if (priceMatch.Groups.Count > 1)
+                        {
+                            var price = ParsePriceText(priceMatch.Groups[1].Value);
+                            if (price.HasValue && price > 100 && price < 1000000)
+                            {
+                                Console.WriteLine($"🔍 Нашли цену в JSON-LD: {price}");
+                                prices.Add(price.Value);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return prices;
         }
 
         private static async Task<decimal?> ParseMVideo(string url)
@@ -326,10 +384,10 @@ namespace PriceTracker.Workers
             {
                 var pricePatterns = new[]
                 {
-                    @"([\d\s]+)[^\d]{0,5}₽", 
-                    @"([\d\s]+)[^\d]{0,5}руб", 
-                    @"цена[^\d]*([\d\s]+)",    
-                    @"стоимость[^\d]*([\d\s]+)" 
+                    @"([\d\s]{4,})[^\d]*₽",  
+                    @"([\d\s]{4,})[^\d]*руб", 
+                    @"цена[^\d]{0,10}([\d\s]{4,})[^\d]*₽",
+                    @"от[^\d]{0,10}([\d\s]{4,})[^\d]*₽"
                 };
 
                 var possiblePrices = new List<decimal>();
@@ -339,10 +397,16 @@ namespace PriceTracker.Workers
                     var matches = Regex.Matches(html, pattern, RegexOptions.IgnoreCase);
                     foreach (Match match in matches)
                     {
-                        var price = ParsePriceText(match.Groups[1].Value);
-                        if (price.HasValue && price > 100 && price < 1000000)
+                        if (match.Groups.Count > 1)
                         {
-                            possiblePrices.Add(price.Value);
+                            var priceText = match.Groups[1].Value;
+                            var price = ParsePriceText(priceText);
+
+                            if (price.HasValue && price > 1000 && price < 1000000)
+                            {
+                                Console.WriteLine($"🔍 Универсальный метод нашел цену: {price}");
+                                possiblePrices.Add(price.Value);
+                            }
                         }
                     }
                 }
@@ -350,7 +414,7 @@ namespace PriceTracker.Workers
                 if (possiblePrices.Any())
                 {
                     var minPrice = possiblePrices.Min();
-                    Console.WriteLine($"✅ Нашли цену через универсальный метод: {minPrice}");
+                    Console.WriteLine($"✅ Универсальный метод: минимальная цена {minPrice}");
                     return minPrice;
                 }
 

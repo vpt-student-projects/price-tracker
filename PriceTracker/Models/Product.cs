@@ -18,7 +18,12 @@ namespace PriceTracker.Models
 
         public bool IsActive { get; set; } = true;
 
+        public int? UserId { get; set; }
+
         [JsonIgnore]
-        public List<PriceHistory> History { get; set; } = new();
+        public virtual User? User { get; set; }
+
+        [JsonIgnore]
+        public virtual ICollection<PriceHistory> History { get; set; } = new List<PriceHistory>();
     }
 }

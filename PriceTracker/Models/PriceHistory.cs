@@ -8,7 +8,7 @@ namespace PriceTracker.Models
         public int Id { get; set; }
         public int ProductId { get; set; }
         public decimal Price { get; set; }
-        public DateTime RetrievedAt { get; set; } = DateTime.UtcNow;
+        public DateTime RetrievedAt { get; set; } = DateTime.Now; 
 
         [JsonIgnore]
         public Product Product { get; set; }
