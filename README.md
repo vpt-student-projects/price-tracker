@@ -28,11 +28,11 @@ Frontend: WPF, OxyPlot (графики)
 
 Поддерживаемые магазины
 
-- DNS-Shop
+- М.Видео
 
 - Citilink
 
-- OnlineTrade
+- E-Katalog
 
 - Books.toscrape.com 
 
